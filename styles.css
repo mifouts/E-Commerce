@@ -42,15 +42,15 @@ li{
     padding: 8px;
 }
 
-
 .nav__link:hover{
     text-decoration: underline;
 }
+
 .nav__link--primary{
     border: 2px solid rebeccapurple;
     border-radius: 2px;
 }
 
-.nav__link.nav__link--primary:hover {
+.nav__link--primary:hover {
     text-decoration: none;
 }
