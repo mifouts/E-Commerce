@@ -42,6 +42,7 @@ li{
     padding: 8px;
 }
 
+
 .nav__link:hover{
     text-decoration: underline;
 }
@@ -50,6 +51,6 @@ li{
     border-radius: 2px;
 }
 
-.nav__link--primary:hover{
+.nav__link.nav__link--primary:hover {
     text-decoration: none;
 }
