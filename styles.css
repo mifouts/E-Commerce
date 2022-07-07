@@ -224,6 +224,7 @@ Highlights
 
 .books{
     display: flex;
+    flex-wrap: wrap;
 }
 
 .book{
@@ -269,3 +270,25 @@ Highlights
     padding-right: 6px;
     color: #bfbfbf;
 }
+
+/* EXPLORE */
+
+#explore {
+    background-color: rgba(115, 66, 214, .1);
+}
+
+.explore__container{
+    background-color: rgba(115, 66, 214, .1);
+}
+
+
+.explore__description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px 0px;
+}
+
+/* FOOTER */
+
