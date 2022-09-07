@@ -1,7 +1,9 @@
-function renderBooks(){
+function renderBooks(filter){
   const booksWrapper = document.querySelector('.books');
 
   const books = getBooks();
+
+
   
   const booksHtml = books.map((book) => {
     return `<div class="book">
@@ -31,6 +33,10 @@ function renderBooks(){
   console.log(booksHtml);
 
   //booksWrapper.innerHTML =
+}
+
+function filterBooks(event) {
+    renderBooks(event.target.value)
 }
 
 setTimeout(() => {
