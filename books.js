@@ -3,7 +3,11 @@ function renderBooks(filter){
 
   const books = getBooks();
 
-
+  if (filter === 'LOW_TO_HIGH'){
+    console.log(filter)
+    const filteredBooks = books.sort((a,b) => a.originalPrice - books.originalPrice);
+    console.log(filteredBooks);
+  }
   
   const booksHtml = books.map((book) => {
     return `<div class="book">
@@ -30,9 +34,6 @@ function renderBooks(filter){
 
 
   booksWrapper.innerHTML = booksHtml;
-  console.log(booksHtml);
-
-  //booksWrapper.innerHTML =
 }
 
 function filterBooks(event) {
@@ -42,6 +43,8 @@ function filterBooks(event) {
 setTimeout(() => {
   renderBooks();
 });
+
+
 // FAKE DATA
 function getBooks() {
   return [
