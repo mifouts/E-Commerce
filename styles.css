@@ -376,8 +376,11 @@ EXPLORE
   background-color: rgba(115, 66, 214, 0.1);
 }
 
-a.explore__button {
-    display: inline-block;
+.explore__button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 24px;
 }
 
 
