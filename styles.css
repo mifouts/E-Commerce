@@ -376,6 +376,11 @@ EXPLORE
   background-color: rgba(115, 66, 214, 0.1);
 }
 
+a.explore__button {
+    display: inline-block;
+}
+
+
 /* 
 
 FOOTER
@@ -384,10 +389,14 @@ FOOTER
 
 footer {
   background-color: #242424;
+  display: flex;
+  justify-content: center;
+  text-align: center;
 }
 
 .footer__logo {
   display: flex;
+  justify-content: center;
 }
 
 .footer__logo--img {
